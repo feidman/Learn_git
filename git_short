@@ -14,5 +14,10 @@
 ### Commit
   - GIT COMMIT to commit changes from staged area to repo(local).
 
+### Remote
+  - GIT REMOTE ADD NAME [url] to add the current local repo to remote repo.
+  - GIT REMOTE PUSH ORGIN MASTER to push commit to remote repo.
+  - GIT CLONE [url] to clone from remote repo
+  - GIT PULL to update the remote repo to local repo.
 
 
