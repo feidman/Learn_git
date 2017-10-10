@@ -10,3 +10,9 @@
   - GIT ADD files to add the files to be traced by git.
   - GIT DIFF to show the difference between the traced file and the staged file which was not committed yet.
   - GIT DIFF --STAGED to show the difference between the traced file and the commited file(in repo).  
+
+### Commit
+  - GIT COMMIT to commit changes from staged area to repo(local).
+
+
+
