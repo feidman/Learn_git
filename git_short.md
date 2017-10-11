@@ -4,7 +4,7 @@
 ## Get started
 ### Install Git
 
-### Git intialize
+### Git initialize
   - CD to the dir you want to trace as the dir for git repo.
   - GIT INIT to initialize the dir( create ./git )
 
