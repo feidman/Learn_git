@@ -13,11 +13,11 @@
 	There are 3 stages totally in git traced file:
 	(1) modified;
 	(2) staged;
-	(3) commited;
+	(3) commited(HEAD);
   - GIT ADD files to add the files to be traced by git.
-  - ignore some files by edit the .gitignore file;
-  - GIT DIFF to show the difference between the traced file and the staged file which was not committed yet.
-  - GIT DIFF --STAGED to show the difference between the traced file and the commited file(in repo).  
+  - GIT DIFF to show the difference between the modified file(work space) and the staged file.
+  - GIT DIFF --STAGED to show the difference between the staged file and commited file(HEAD).
+  - GIT DIFF HEAD to show the difference between the modified file and the commited file(HEAD).
 
 ### Commit
   - GIT COMMIT to commit changes from staged area to repo(local).
