@@ -14,7 +14,7 @@
 	(1) modified;
 	(2) staged;
 	(3) commited(HEAD);
-  - GIT ADD files to add the files to be traced by git.
+ - GIT ADD files to add the files to be traced by git.
   - GIT DIFF to show the difference between the modified file(work space) and the staged file.
   - GIT DIFF --STAGED to show the difference between the staged file and commited file(HEAD).
   - GIT DIFF HEAD to show the difference between the modified file and the commited file(HEAD).
@@ -24,8 +24,15 @@
   - GIT COMMIT -m "commit message";
   - GIT COMMIT -a to commit chages direct from modified work space by jump over the step of "GIT ADD";
 
+### Reset
+  - GIT RESET HEAD: staged area will be overwrite by HEAD
+  - GIT CHECKEDOUT: modified file(working sapce) will be overwrite by staged area
+  - GIT CHECKEDOUT HEAD: working space and staged area will overwrite by HEAD(ALL CHANGES WILL BE LOST)
+
+
 ### Remove files from git trace list
   - GIT RM will remove the file from traced lists of git and work space.(rather than delete directly from work space);
+
   - GIT RM --CACHEd to remove the file from staged area of git. (the file still exists in the work space);
 
 ### Rename files
@@ -37,4 +44,6 @@
   - GIT CLONE [url] to clone from remote repo
   - GIT PULL to update the remote repo to local repo.
 
+### git configuration
+  - git config --global color.ui true
 
